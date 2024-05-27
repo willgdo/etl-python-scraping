@@ -28,11 +28,11 @@ df['reviews_amount'] = df['reviews_amount'].fillna(0).astype(int)
 #Remover linhas que não possuem Marcas cadastradas (igual a null);
 df.dropna(subset=['brand'], inplace=True)
 
-# Criar coluna “old_price” -> Junção de coluna old_price_reais + old_price_centavos;
-df['old_price'] = df['old_price_reais'] + df['old_price_centavos'] / 100
+# Criar coluna “old_price” -> Junção de coluna old_price_reais + old_price_centavos e arredonda casas decimais;
+df['old_price'] = round(df['old_price_reais'] + df['old_price_centavos'] / 100, 2)
 
-#Criar coluna “new_price” -> Junção de coluna new_price_reais + new_price_centavos;
-df['new_price'] = df['new_price_reais'] + df['new_price_centavos'] / 100
+#Criar coluna “new_price” -> Junção de coluna new_price_reais + new_price_centavos e arredonda casas decimais;
+df['new_price'] = round(df['new_price_reais'] + df['new_price_centavos'] / 100, 2)
 
 # Remover colunas 'old_price_reais', 'old_price_centavos', 'new_price_reais' e  'new_price_centavos';
 df.drop(columns=['old_price_reais', 'old_price_centavos', 'new_price_reais', 'new_price_centavos'], inplace=True)
