@@ -1,6 +1,6 @@
 ﻿# etl-python-scraping
 
-### Trabalho desenvolvido para a matéria de Preparação e Integração de Dados do curso de Interligência Artificial e Aprendizado de Máquina da PUC Minas.
+### Projeto desenvolvido para a matéria de Preparação e Integração de Dados do curso de Interligência Artificial e Aprendizado de Máquina da PUC Minas.
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
 
