@@ -4,4 +4,4 @@
 
 __________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-TEMA: Pesquisa de mercado na categoria tênis esportivos masculinos dentro do Mercado Livre, onde através dessa pesquisa será feito um tratamento dos dados e no fim termos a informação de: Quais marcas são mais encontradas, qual o preço médio, e qual a satisfação dos clientes em relação às marcas.
+Pesquisa de mercado na categoria tênis esportivos masculinos dentro do Mercado Livre. Através dessa pesquisa é feito um tratamento dos dados e no fim temos a informação de: Quais marcas são mais encontradas, qual o preço médio, e qual a satisfação dos clientes em relação às marcas.
