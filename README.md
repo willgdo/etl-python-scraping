@@ -8,7 +8,7 @@ Pesquisa de mercado na categoria tênis esportivos masculinos dentro do Mercado 
 
 ## 🚀 Tecnologias
 
-Essa página foi desenvolvida com as seguintes tecnologias:
+Foi desenvolvido usando as seguintes tecnologias:
 
 - Python | Pandas
 - Scrapy
