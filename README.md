@@ -18,6 +18,6 @@ Pesquisa de mercado na categoria tênis esportivos masculinos dentro do Mercado 
 Foi desenvolvido usando as seguintes tecnologias:
 
 - Python | Pandas
-- streamlit 
 - Scrapy
 - Sqlite
+- Streamlit 
